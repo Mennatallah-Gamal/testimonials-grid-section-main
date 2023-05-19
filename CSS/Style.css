@@ -8,9 +8,9 @@ body {
     place-items: center;
 }
 .container {
+    width: fit-content;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    grid-template-rows: repeat( 100px);
+    grid-template-columns: repeat(4, 250px);
     gap: 20px;
     grid-template-areas: 
     "box1 box1 box2 box5"
@@ -35,7 +35,7 @@ body {
     }
 }
 .box {
-    padding: 20px;
+    padding: 20px ;
     border-radius: 10px;
 }
 .box .personal-details {
