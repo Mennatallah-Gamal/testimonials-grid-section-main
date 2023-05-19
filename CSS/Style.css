@@ -50,7 +50,9 @@ body {
 .box .personal-details span{
     display: block;
 }
-.box1, .box2, .box4 .name{
+.box1 .name,
+ .box2 .name,
+ .box4 .name{
     color: hsl(0, 0%, 81%);
 }
 .box3, .box5 .name{
