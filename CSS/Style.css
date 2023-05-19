@@ -7,6 +7,9 @@ body {
     display: grid;
     place-items: center;
 }
+main h1 {
+    display: none;
+}
 .container {
     width: fit-content;
     display: grid;
@@ -38,21 +41,29 @@ body {
     padding:28px 35px;
     border-radius: 10px;
 }
-.box .personal-details {
+.box figure {
     display: flex;
+    margin: 0;
 }
-.box .personal-details img{
+.box figure img{
     width: 30px;
     height: 30px;
+    border: 2px solid white;
     border-radius: 50%;
     margin-right: 15px;
 }
-.box .personal-details span{
+.box1 figure img {
+    border-color: hsl(263, 39%, 66%);
+}
+.box4 figure img {
+    border-color: hsl(263, 55%, 52%);
+}
+.box  span{
     display: block;
 }
 .box1 .name,
- .box2 .name,
- .box4 .name{
+.box2 .name,
+.box4 .name{
     color: hsl(0, 0%, 81%);
 }
 .box3, .box5 .name{
@@ -75,14 +86,17 @@ body {
 .box3, .box5 h2 {
     color: hsl(217, 19%, 35%);
 }
-.box1 p,
-.box2 p,
-.box4 p {
+.box blockquote {
+    margin: 13px 0;
+}
+.box1 blockquote,
+.box2 blockquote,
+.box4 blockquote {
     color: hsl(0, 0%, 81%);
     opacity: 70%;
 }
-.box3 p,
-.box5 p {
+.box3 blockquote,
+.box5 blockquote {
     color: hsl(217, 19%, 35%);
     opacity: 70%;
 }
