@@ -123,3 +123,8 @@ main h1 {
     grid-area: box5;
     background-color: hsl(0, 0%, 100%);
 }
+@media (max-width: 767px) {
+    footer {
+        padding: 10px;
+    }
+}
