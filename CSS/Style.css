@@ -124,7 +124,7 @@ main h1 {
     background-color: hsl(0, 0%, 100%);
 }
 @media (max-width: 767px) {
-    footer {
+    footer .attribution{
         padding: 10px;
     }
 }
